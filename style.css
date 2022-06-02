@@ -1,0 +1,39 @@
+ .row:after {
+content: '';
+display: table;
+clear: both;
+width: 100%;
+} 
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 300px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container-color{
+    background-color: gray;
+    padding: 100px;
+}
+body{
+background-color: white
+}
+.white-background {
+    background-color: white;
+}
+/* .col-8 {
+    position: relative;
+    width: 100%;
+}
+
+.col-4 {
+    margin: 100px;
+}
+
+.col-3 {
+    width: 50%;
+} */
+
